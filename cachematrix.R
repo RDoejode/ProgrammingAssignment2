@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+#This function takes a matrix as a parameter or initializes one if called without the matrix parameter. The function has functions that sets and gets the matrix. The function also has functions to set the inverse matrix and get the inverse matrix of the original matrix. 
 makeCacheMatrix <- function(x = matrix()) {
 
 	m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#This function takes a matrix created by the above function and returns an inverse of the matrix if the inverse matrix exists in the cache. If the inverse is not there in the cache, an inverse is computed.
 cacheSolve <- function(x, ...) {
 
         ## Return a matrix that is the inverse of 'x'
